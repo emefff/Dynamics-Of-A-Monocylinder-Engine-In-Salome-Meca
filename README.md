@@ -3,6 +3,6 @@ Simulating dynamics of a monocylinder engine is a tedious task if no multi-node 
 view 1           |  view 2
 :-------------------------:|:-------------------------:
 ![Bildschirmfoto vom 2024-12-03 20-52-12](https://github.com/user-attachments/assets/8eb5331b-c6bb-43aa-9c61-4c46dd7e4776) |   ![Bildschirmfoto vom 2024-12-03 20-52-42](https://github.com/user-attachments/assets/05dd2957-b8a2-4613-913a-5ce4a6c5dff0)
-               
+:-------------------------:|:-------------------------:
 
 For simplification, some features are not included: Piston ring slots, valve pockets, connecting rod bolts (+ necessary features on the rod), cylinder liner. For the simulation, the crank is turned 80° to put it in a positon 10° after TDC. As is visible in the attached command file, a maximum pressure or 120bar is applied to the piston surface in a 'smoother' profile. One full rotation is simulated, because the full time needed is not known before the simulation, there is some leeway in the timestep list, just the final time must be given. If needed the simulation can be continued for a certain time by adding an additional stage and taking the already computed result as initial state (ETAT_INIT). We need ~25ms for one full rotation, this equates to about 2400rmp of the engine. There is no friction in all the bearings, nevertheless, the model absolutely allows for this. However, the calculation time may increase a lot. The materials are modeled with ELAS_FO and ECRO_LINE, a simple elasto linear plastic model. Surprisingly, the performance with this model is quite good. 
