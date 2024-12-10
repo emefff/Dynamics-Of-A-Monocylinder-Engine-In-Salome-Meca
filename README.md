@@ -16,10 +16,10 @@ You may conclude that the mesh resolution is not enough comparable to a static (
 
 ![Bildschirmfoto vom 2024-12-10 12-50-45](https://github.com/user-attachments/assets/989ce17f-76ad-4311-97b3-a45dc54ca637)
 
-As the assembly starts from zero velocity, we also find that in the point data. The following two cycles are almost perfect (a bit slanted) sines with only minor fluctuations. Let's take a look at the associated acceleration in the same point:
+As the assembly starts from zero velocity, we also find that in the point data. The following two cycles are almost perfect (a bit slanted) sines with only minor fluctuations (unit = mm/s). Let's take a look at the associated acceleration in the same point:
 
 ![Bildschirmfoto vom 2024-12-10 12-39-42](https://github.com/user-attachments/assets/fe399487-5174-433d-af7a-a694884aa5a9)
-In the beginning, the acceleration is a bit shaky, but transients seem to tone down and give a nice curve over the two cycles (units are mm/s²).
+In the beginning, the acceleration is a bit shaky, but transients seem to tone down and give a nice curve over the two cycles (unit = mm/s²).
 
 
 emefff@gmx.at
