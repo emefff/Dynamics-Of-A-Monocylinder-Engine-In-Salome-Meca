@@ -11,6 +11,6 @@ Below we show a Von Mises still image at 1.6ms, which corresponds to peak forces
 
 ![vmis_1 6ms](https://github.com/user-attachments/assets/8a72fd17-6530-4889-bfa1-79b8c9238274)
 
-You may conclude, that the resolution is not enough comparable to a static (or pseudo-static) analysis of such an assembly and perhaps you are right. But for studying the dynamic forces with limited hardware, it absolutely is. This is the purpose of this repository. This is ongoing work.
+You may conclude that the mesh resolution is not enough comparable to a static (or pseudo-static) analysis of such an assembly and perhaps you are right. But for studying the dynamic forces with limited hardware, it absolutely is. This is the purpose of this repository. This is ongoing work.
 
 emefff@gmx.at
