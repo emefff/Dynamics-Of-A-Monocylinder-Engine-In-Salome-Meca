@@ -12,10 +12,13 @@ Below a Von Mises still image at 1.6ms is shown, it corresponds to peak forces o
 
 ![vmis_1 6ms](https://github.com/user-attachments/assets/8a72fd17-6530-4889-bfa1-79b8c9238274)
 
-You may conclude that the mesh resolution is not enough comparable to a static (or pseudo-static) analysis of such an assembly and perhaps you are right. But for studying dynamics this can be abolutely sufficient, even more so considering the hardware needs and the fact that only FOSS software was used. For example, we can easily extract basic data like acceleration on a point in the piston crown (top of piston):
+You may conclude that the mesh resolution is not enough comparable to a static (or pseudo-static) analysis of such an assembly and perhaps you are right. But for studying dynamics this can be abolutely sufficient, even more so considering the hardware needs and the fact that only FOSS software was used. For example, we can easily extract basic data like velocity and acceleration on a point in the piston crown (top of piston):
+
+![Bildschirmfoto vom 2024-12-10 12-50-45](https://github.com/user-attachments/assets/989ce17f-76ad-4311-97b3-a45dc54ca637)
+
+As the assembly starts from zero velocity, we also find that in the point data. The following two cycles are almost perfect sines with only minor fluctuations.
 
 ![Bildschirmfoto vom 2024-12-10 12-39-42](https://github.com/user-attachments/assets/fe399487-5174-433d-af7a-a694884aa5a9)
-
 In the beginning, the acceleration is a bit shaky, but transients seem to tone down and give a nice curve over the two cycles (units are mm/s²).
 
 
